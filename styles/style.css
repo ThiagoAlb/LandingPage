@@ -55,6 +55,11 @@ h1 {
     font-weight: 200;
 }
 
+#titulo1 {
+    font-size: 25px;
+    color: rgb(183, 96, 233);
+}
+
 main {
     display: flex;
     flex-direction: row;
@@ -78,7 +83,9 @@ p {
 }
 
 img {
-    width: 580px;
+    width: 450px;
+    margin: 50px 0px 0px 30px;
+    border-radius: 50px;
 }
 
 form {
@@ -143,9 +150,9 @@ input {
     }
 
     a.linha:hover {
-        background-color: white;
-        color: rgb(132, 14, 201);
-        font-weight: bold;
+        background-color: rgb(132, 14, 201);
+        color: white;
+        
         transition: 0.8s;
     }
 }
